@@ -103,7 +103,7 @@ void listarAlunos(){
 void aprovados(){
     for(int i = 0; i < 100; i++){
         if(alunos[i].situ == "APROVADO" && alunos[i].matri != -1){
-            printf("NOME: %s * MATRICULA: %i * MEDIA : %.2f * SITUACAO: %s \n", alunos[i].nome, alunos[i].matri, alunos[i].media, alunos[i].situ);
+            printf("\nNOME: %s * MATRICULA: %i * MEDIA : %.2f * SITUACAO: %s \n", alunos[i].nome, alunos[i].matri, alunos[i].media, alunos[i].situ);
         }
     }
 }
@@ -111,7 +111,7 @@ void aprovados(){
 void reprovados(){
     for(int i = 0; i < 100; i++){
         if(alunos[i].situ == "REPROVADO" && alunos[i].matri != -1){
-            printf("NOME: %s * MATRICULA: %i * MEDIA : %.2f * SITUACAO: %s \n", alunos[i].nome, alunos[i].matri, alunos[i].media, alunos[i].situ);
+            printf("\nNOME: %s * MATRICULA: %i * MEDIA : %.2f * SITUACAO: %s \n", alunos[i].nome, alunos[i].matri, alunos[i].media, alunos[i].situ);
         }
     }
 }
